@@ -14,8 +14,6 @@ data class Post(
     val reposts: Reposts = Reposts(),
     val views: Views = Views(),
     val postType: String = "",
-    val postSource: PostSource = PostSource(),
-    val geo: Geo = Geo(),
     val signerId: Int = 0,
     val canPin: Boolean = false,
     val canDelete: Boolean = false,
@@ -23,6 +21,5 @@ data class Post(
     val isPinned: Boolean = false,
     val markedAsAds: Boolean = false,
     val isFavorite: Boolean = false,
-    val donut: Donut = Donut(),
     val postponedId: Int = 0
 )
