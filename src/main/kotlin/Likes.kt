@@ -1,6 +1,6 @@
 class Likes(
-    var count: Int,
-    val userLikes: Boolean,
-    val canLike: Boolean,
-    val canPublish: Boolean
+    var count: Int = 0,
+    val userLikes: Boolean = false,
+    val canLike: Boolean = false,
+    val canPublish: Boolean = false
 )
