@@ -1,4 +1,4 @@
-class Comments(
+data class Comments(
     val cout: Int = 0,
     val canPost: Boolean = false,
     val groupsCanPost: Boolean = false,
