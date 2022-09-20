@@ -1,1 +1,1 @@
-data class Views(val count: Int = 0)
+data class Views(val count: Int)
