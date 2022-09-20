@@ -1,6 +1,5 @@
 var countRandom: Int = (0..2000).random()
 var countCommentsRandom: Int = (0..700).random()
-var paidDurationRandom: Int = (0..400).random()
 var copyrightIdRandom: Int = (0..2000).random()
 var countLikesRandom: Int = (0..3000).random()
 val reportsRandom: Int = (0..500).random()
